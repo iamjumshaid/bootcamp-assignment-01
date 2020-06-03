@@ -30,4 +30,4 @@ jobs:
       run: npm install -g surge
     
     - name: Run Surge
-      run: surge ./ jumshaid_khan_piaic_isl_q03.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ jumshaid_khan_piaic_batch03_q02.surge.sh --token ${{secrets.SURGE_TOKEN}}
